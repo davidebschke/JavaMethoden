@@ -6,6 +6,8 @@ public class Main
 
         // Methoden
 
+    System.out.println("Hallo");
+
 
 
     }
