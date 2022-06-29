@@ -1,12 +1,12 @@
 public class Main
 
 {
-    private static void Testmethode()
-    {
-        int Zahl1 = 2;
-        int Zahl2 = 3;
 
-        System.out.println(Zahl1+Zahl2);
+    public static int Rechnen(int value)
+    {
+
+        return value*2;
+
     }
 
 
@@ -16,8 +16,10 @@ public class Main
     public static void main(String[] args) {
 
         // Methoden
-    Testmethode();
-    System.out.println("Hallo");
+    int result=Rechnen(2);
+    System.out.println("");
+    System.out.println("Das Ergebnis der Methode ist "+ result);
+
 
 
 
