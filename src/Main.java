@@ -1,10 +1,17 @@
 public class Main {
 
-    public static double Math(double value) {
+    public static double Math(double value,double Zahl) {
 
-        return ((value * 2)/3);
+        return ((value * 2)/3*Zahl);
 
     }
+
+    public static  String Aufgabe(String Satz, Integer Zahlen)
+    {
+        return Satz + Zahlen;
+
+    }
+
 
 
 //_____________________________________________//
@@ -12,9 +19,13 @@ public class Main {
     public static void main(String[] args) {
 
         // Method
-        double result = Math(32);
-        System.out.println();
+        double result = Math(32,2);
         System.out.println("Das Ergebnis der Methode ist " + result);
+
+        String Aufgaben=Aufgabe("Summe:",27);
+        System.out.println(Aufgaben);
+
+
 
 
     }
