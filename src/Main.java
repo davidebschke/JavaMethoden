@@ -20,7 +20,7 @@ public class Main {
         double result = Math(32, 2);
         System.out.println("Das Ergebnis der Methode ist " + result);
 
-        int Aufgaben = Aufgabe(20, 22);
+        int Aufgaben = Aufgabe(80, 22);
         System.out.println("Summe:" + Aufgaben);
 
         if (Aufgaben > 100) {
