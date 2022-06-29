@@ -6,9 +6,9 @@ public class Main {
 
     }
 
-    public static  String Aufgabe(String Satz, Integer Zahlen)
+    public static  int Aufgabe(int Zahlen2, int Zahlen)
     {
-        return Satz + Zahlen;
+        return Zahlen2 + Zahlen;
 
     }
 
@@ -22,10 +22,19 @@ public class Main {
         double result = Math(32,2);
         System.out.println("Das Ergebnis der Methode ist " + result);
 
-        String Aufgaben=Aufgabe("Summe:",27);
-        System.out.println(Aufgaben);
+        int Aufgaben=Aufgabe(20,22);
+        System.out.println("Summe:"+ Aufgaben);
 
+        if(Aufgaben>100)
+        {
 
+            System.out.println("Das Ergebnis ist über 100");
+        }
+        else
+        {
+            System.out.println("Das Ergebnis ist unter 100");
+
+        }
 
 
     }
