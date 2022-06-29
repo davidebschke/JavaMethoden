@@ -1,8 +1,8 @@
 public class Main {
 
-    public static int Rechnen(int value) {
+    public static double Math(double value) {
 
-        return value * 2;
+        return ((value * 2)/3);
 
     }
 
@@ -11,9 +11,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Methoden
-        int result = Rechnen(2);
-        System.out.println("");
+        // Method
+        double result = Math(32);
+        System.out.println();
         System.out.println("Das Ergebnis der Methode ist " + result);
 
 
