@@ -11,6 +11,13 @@ public class Main {
 
     }
 
+    public static boolean letter(String letter){
+
+        return letter.contains("Hallo");
+
+
+    }
+
 
 //_____________________________________________//
 
@@ -32,6 +39,13 @@ public class Main {
 
         }
 
+        if(letter("Hallo")==true)
+        {
+            System.out.println("Der String enthält das Wort Hallo");
+        }
+        else {
+            System.out.println("Der String enthält nicht das Wort Hallo");
+        }
 
     }
 
