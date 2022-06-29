@@ -6,8 +6,8 @@ public class Main {
 
     }
 
-    public static int Aufgabe(int Zahlen2, int Zahlen) {
-        return Zahlen2 + Zahlen;
+    public static String Math2(int Zahlen2, int Zahlen) {
+        return ("Summe:"+(Zahlen2 + Zahlen));
 
     }
 
@@ -20,10 +20,11 @@ public class Main {
         double result = Math(32, 2);
         System.out.println("Das Ergebnis der Methode ist " + result);
 
-        int Aufgaben = Aufgabe(80, 22);
-        System.out.println("Summe:" + Aufgaben);
 
-        if (Aufgaben > 100) {
+        System.out.println(Math2(20,30));
+
+
+        if ( result> 100) {
 
             System.out.println("Das Ergebnis ist über 100");
         } else {
